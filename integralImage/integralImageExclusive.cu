@@ -7,8 +7,8 @@
 #include <cstring>
 #include <ctime>
 
-#define WIDTH  6
-#define HEIGHT 6
+#define WIDTH  7
+#define HEIGHT 3
 #define THREADS_PER_BLOCK 32
 
 #define CUDA_CHECK(err) if(err != cudaSuccess)\

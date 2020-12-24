@@ -1,6 +1,12 @@
 # integralImage
 
+## Exclusive Integral
 ```
-nvcc -o integralImage integralImage.cu
-./integralImage
+nvcc -o integralImageExclusive integralImageExclusive.cu
+./integralImageExclusive
+```
+## Inclusive Integral
+```
+nvcc -o integralImageInclusive integralImageInclusive.cu
+./integralImageInclusive
 ```
